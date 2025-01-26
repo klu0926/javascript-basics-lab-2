@@ -165,5 +165,6 @@ function scopeExample() {
   console.log(`In function scope I can access '${globalVar}'`)
 }
 // this cause error!
-console.log(`In global scope I can not acess ${localVar}`)
+//console.log(`In global scope I can not acess ${localVar}`)
 scopeExample()
+console.log('In Global scope I can not access local')
